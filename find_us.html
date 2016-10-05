@@ -94,9 +94,10 @@
 	
           position: uluru,
           map: map,
-	title :"JU E-Cell"
+	title :'JU E-Cell'
         });
-	      marker.setMap(map);
+	      google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
 	      $(document).ready(function() {
     $(window).resize(function() {
         google.maps.event.trigger(map, 'resize');
