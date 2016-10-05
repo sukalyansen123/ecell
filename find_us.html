@@ -94,8 +94,12 @@
           position: uluru,
           map: map
         });
-	      google.maps.event.trigger(map, 'resize');
-map.setZoom( map.getZoom() );
+	      $(document).ready(function() {
+    $(window).resize(function() {
+        google.maps.event.trigger(map, 'resize');
+    });
+    google.maps.event.trigger(map, 'resize');
+});
       }
     </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU61HX32Ebuve-nZUW44sianyks_APXIU&callback=initMap"
