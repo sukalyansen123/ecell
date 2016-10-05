@@ -1,0 +1,131 @@
+<stylle type="text/css">
+
+.wrapper{
+      margin-top:0px;
+    
+    position :relative;
+    width: 90%;
+    margin: 0px auto;
+    height:300px;
+    }
+ #map {
+ 	position :absolute;
+    top:230px;
+    left:0;
+    bottom:0;
+    right:650px;
+  height:500px;	
+       margin-left:150px
+       }
+.form1{
+
+    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     position : absolute;
+  top:210px;
+  right:450px;
+  width: 250px;    
+  height: 300px;
+  
+ 
+  
+  }
+.form1 label{
+    display:block;
+    margin-bottom: 1px;
+    margin-left: 50px;
+}
+.form1 label > span{
+    float: left;
+    width: 100px;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.form1 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 10px 10px 50px;
+   
+    padding: 20px;
+    background: #D6eaf8;
+    box-shadow: inset 0px 0px 15px #d6eaf8;
+    -moz-box-shadow: inset 0px 0px 15px #d6eaf8;
+    -webkit-box-shadow: inset 0px 0px 15px #d6eaf8;
+}
+.form1 fieldset legend{
+    color: #3498db;
+    
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #d6eaf8;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 25px;
+}
+.form1 input[type=text],
+.form1 input[type=date],
+.form1 input[type=datetime],
+.form1 input[type=number],
+.form1 input[type=search],
+.form1 input[type=time],
+.form1 input[type=url],
+.form1 input[type=email],
+.form1 select,
+.form1 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #3498db;
+    outline: none;
+    color: #000000;
+    padding: 3px 3px 3px 3px;
+    box-shadow: inset 1px 1px 4px #85c1e9;
+    -moz-box-shadow: inset 1px 1px 4px #85c1e9;
+    -webkit-box-shadow: inset 1px 1px 4px #85c1e9;
+    background: #ebf5fb;
+    width:400px;
+    height:20px;
+}
+.form1 textarea{
+    width:250px;
+    height:100px;
+}
+
+.form1  input[type=submit],
+.form1  input[type=button]{
+    background: #3498db;
+    border: 1px solid #85c1e9;
+    padding: 5px 15px 5px 15px;
+    color: #FFCBE2;
+    box-shadow: inset -1px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;   
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:normal;
+}
+
+h5{
+font-size:50px;
+font-weight:bold;
+margin-left:150px;
+}
+p{
+margin-left:150px;
+
+}
+
+</style>
