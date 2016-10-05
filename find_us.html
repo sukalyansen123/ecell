@@ -91,10 +91,12 @@
           center: uluru
         });
         var marker = new google.maps.Marker({
-	title :'JU E-Cell',
+	
           position: uluru,
-          map: map
+          map: map,
+	title :"JU E-Cell"
         });
+	      marker.setMap(map);
 	      $(document).ready(function() {
     $(window).resize(function() {
         google.maps.event.trigger(map, 'resize');
