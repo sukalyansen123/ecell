@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
+    <title>JU ECell</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    
+    <script type="text/javascript" src="script.js"></script>
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="form.css" rel="stylesheet" type="text/css">
+    <script>
+      window.liveSettings = {
+        api_key: "a0b49b34b93844c38eaee15690d86413",
+        picker: "bottom-right",
+        detectlang: true,
+        dynamic: true,
+        autocollect: true
+      };
+    </script>
+    <script src="//cdn.transifex.com/live.js"></script>
+  </head>
+  <body class="parallax-demo"><header>
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="find_us.html">Connect</a></li>
+        <!--<li><a href="blog.html">Blog</a></li>-->
+      </ul>
+      <!--<a id="logo-container" href="#" class="brand-logo"></a>-->
+      
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</header>
+<main>
+
+ 
+
+      
+      <div class="wrapper">
+<h5>Connect Us</h5>
+      <p class="grey-text text-darken-3 lighten-3">Fill up the form to get in touch with us.</p>
+	
+		<div id="map"></div>      
+ 	<div class="form1">
+      		<form>
+		
+    
+      	<fieldset><legend>Contact US</legend>
+      	<div>
+      	<label for="field1"><span>Name<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" />
+      	</label>
+      
+         <label for="field2"><span>Email<span class="required">*</span></span><input type="email" class="input-field" name="field1" value="" />
+      </label>
+      <label for="field3"><span>Phone<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" />
+      </label>
+      <label for="field4"><span>Subject<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" />
+      </label>
+<label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+<label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+
+		</form> 
+	</div>
+
+	</div>
+<script>
+      function initMap() {
+        var uluru = {lat: 22.4996111, lng: 88.3698181};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+   
+   </body>
+   
+   </html>
