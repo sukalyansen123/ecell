@@ -1,0 +1,45 @@
+h1 {
+  text-align:center;
+  font-weight: normal;
+  padding-left:10px;
+  margin-bottom:0;
+	padding-top:10px;
+	
+}
+
+.class1{
+
+border-radius:50%;
+margin-left:350px;
+margin-top:50px;
+height:150px;
+width:150px;
+}
+figure {
+    display: inline-block;
+   margin-left:120px;
+    margin-top:50px;
+}
+figure img {
+   	height:150px;
+   	width:150px;
+    vertical-align: top;
+    border-radius:50%;
+}
+figure figcaption {
+   font-size:15px;
+    text-align: center;
+    color:#000000;
+}
+
+.
+
+body {
+  padding: 0; margin: 0;
+  font-family: "Open Sans Condensed", "Open Sans", "Droid Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7;
+  background: #d3d3d3;
+  color: #DFF7E5;
+}
+
