@@ -54,3 +54,10 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
